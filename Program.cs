@@ -110,6 +110,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("EVEN OR ODD?\n");
 
             // Enter your solution here
+            // NOTE: good solution, novice developers should us curly braces, you also have unnecessary braces on lines 114 and 130
             {
                 Console.WriteLine("Enter Number");
                 int num = Convert.ToInt32(Console.ReadLine());
@@ -179,6 +180,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("FIND THE LARGEST NUMBER\n");
 
             // Enter your solution here
+            // NOTE: good solution 
             {
                 int number1;
                 int number2;
@@ -224,7 +226,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("DIVISIBLE BY 3\n");
 
             // Enter your solution here
-
+            // NOTE: good solution
             Console.WriteLine("Enter number");
             int userInput = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
@@ -266,6 +268,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("RESTAURANT BILL\n");
 
             // Enter your solution here
+            // NOTE: good solution; think about using some pre-calculated math, like .9 or .95 instead of /100
             Console.WriteLine("Enter number of people");
             float dinners = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("");
@@ -325,6 +328,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("AGE CATEGORY\n");
 
             // Enter your solution here
+            // NOTE: good solution, use curly braces on if statements and you have extra unncessary brackets
             { 
             Console.WriteLine("Enter your age.");
             Console.WriteLine();
@@ -373,7 +377,7 @@ namespace ComputationalThinkingExercises
 
 
             // Enter your solution here
-            
+            // NOTE: good solution but needs ToLower()
                 Console.WriteLine("Type a number from zero to ten");
                 string number = Console.ReadLine();
                 
@@ -432,6 +436,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("WHICH NAME IS LONGER?\n");
 
             // Enter your solution here
+            // NOTE: good solution
             {
                
                 Console.WriteLine("Enter the first name");
@@ -472,6 +477,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("ARE THESE NAMES THE SAME?\n");
 
             // Enter your solution here
+            // NOTE: good solution
             {
                 Console.WriteLine("Enter the first name");
                 string firstName = (Console.ReadLine());
@@ -501,6 +507,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("NAME AND PLACE OF BIRTH\n");
 
             // Enter your solution here
+            // NOTE: good solution
             {
                 Console.WriteLine("What is your name?");
                 string name = Console.ReadLine();
